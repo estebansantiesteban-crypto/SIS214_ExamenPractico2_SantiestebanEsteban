@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#252320">
+    <meta name="description" content="Hoja de vida de Esteban Javier Santiesteban Flores, estudiante de Ingeniería en Sistemas en La Paz, Bolivia.">
+    <title>Esteban Santiesteban | Hoja de vida</title>
+    <link rel="preload" as="image" href="assets/imagenFoto.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.11/dayjs.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.11/locale/es.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.11/plugin/utc.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.11/plugin/timezone.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js" defer></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js" defer></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+</head>
+<body>
+    <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+    <header class="site-header" id="inicio">
+        <nav class="navbar" aria-label="Navegación principal">
+            <a class="brand" href="#inicio" aria-label="Inicio: Esteban Santiesteban">ES<span>.</span></a>
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                type="button"
+                aria-label="Abrir menú de navegación"
+                aria-expanded="false"
+                aria-controls="menu-principal"
+            >
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="menu-principal">
+                <li><a href="#perfil">Perfil</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#formacion">Formación</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#datos">Datos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Cambiar a modo claro" aria-pressed="true">
+                <i class="ri-sun-line" aria-hidden="true"></i>
+            </button>
+        </nav>
+        <section class="hero" aria-labelledby="nombre-titulo">
+        <section class="hero-content" aria-label="Presentación">
+            <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Estudiante de Ingeniería en Sistemas</p>
+             <h1 id="nombre-titulo">Esteban Javier<br><span>Santiesteban Flores</span></h1>
+             <p class="hero-role">Ingeniería en Sistemas <span aria-hidden="true">·</span> Electrónica y música</p>
+            <p class="hero-summary">Estudiante de la Universidad Católica Boliviana en La Paz, con formación en electrónica, robótica con Arduino y música. Me caracterizan la proactividad, la responsabilidad, la adaptación y el trabajo en equipo.</p>
+    
+        <nav class="hero-actions" aria-label="Acciones de la hoja de vida">
+            <a class="button button-primary" href="#formacion">Ver mi trayectoria <span aria-hidden="true">↗</span></a>
+            <a class="button button-quiet" href="assets/CV_Esteban_Santiesteban.pdf" download="CV_Esteban_Santiesteban.pdf"><span aria-hidden="true">↓</span> Descargar CV</a>
+        </nav>
+
+    <ul class="contact-links" aria-label="Datos de contacto">
+        <li><i class="ri-map-pin-2-line" aria-hidden="true"></i> La Paz, Bolivia</li>
+        <li><a href="mailto:estebansjf19@gmail.com"><i class="ri-mail-line" aria-hidden="true"></i> estebansjf19@gmail.com</a></li>
+        <li><a href="tel:+59161219052"><i class="ri-phone-line" aria-hidden="true"></i> +591 61219052</a></li>
+    </ul>
+</section>
+            <figure class="hero-visual">
+                <span class="photo-frame">
+                    <img src="assets/imagenFoto.png" alt="Retrato de Esteban Javier Santiesteban Flores" class="profile-photo" width="420" height="420">
+                </span>
+                <span class="visual-decoration" aria-hidden="true">ES</span>
+            </figure>
+            <a class="scroll-cue" href="#contenido"><span aria-hidden="true">↓</span> Desliza para conocerme</a>
+        </section>
+    </header>
+    <main id="contenido">
+        <section class="section profile-section" id="perfil" aria-labelledby="perfil-titulo" data-aos="fade-up">
+            <header class="section-heading">
+                <p class="eyebrow">01 / Un poco sobre mí</p>
+                <h2 id="perfil-titulo">Tecnología, música<br>y trabajo en <span>equipo.</span></h2>
+            </header>
+            <section class="profile-grid" role="group" aria-label="Perfil profesional y formación">
+                <article class="profile-copy">
+                    <p>Soy estudiante de Ingeniería en Sistemas en la Universidad Católica Boliviana “San Pablo”, en La Paz. Mi formación también incluye el título de Técnico Medio en Electrónica y estudios de robótica básica con Arduino.</p>
+                    <p>Me considero una persona proactiva, responsable y adaptable. Tengo facilidad para trabajar en equipo, interés por la tecnología y formación musical en guitarra y música clásica.</p>
+                </article>
+                <aside class="profile-highlights" aria-label="Resumen de formación y experiencia">
+                    <article class="highlight-card">
+                        <span class="skill-index">FORMACIÓN ACTUAL</span>
+                        <h3>Ingeniería en Sistemas</h3>
+                        <p>Universidad Católica Boliviana “San Pablo” · La Paz</p>
+                    </article>
+                    <article class="highlight-card">
+                        <span class="skill-index">EXPERIENCIA</span>
+                        <h3>Agente censal</h3>
+                        <p>Instituto Nacional de Estadística (INE)</p>
+                    </article>
+                    <article class="highlight-card weather-card" data-state="loading" aria-busy="true" aria-labelledby="weather-title">
+                        <span class="skill-index">ACTUALIZACIÓN EN VIVO · LA PAZ</span>
+                        <h3 id="weather-title">Clima actual</h3>
+                        <p id="weather-status" class="weather-status" role="status" aria-live="polite" aria-atomic="true">Consultando el clima…</p>
+                        <dl id="weather-details" class="weather-details" aria-label="Condiciones actuales" hidden>
+                            <dt>Temperatura</dt>
+                            <dd id="weather-temperature"></dd>
+                            <dt>Sensación térmica</dt>
+                            <dd id="weather-feels-like"></dd>
+                            <dt>Humedad</dt>
+                            <dd id="weather-humidity"></dd>
+                            <dt>Viento</dt>
+                            <dd id="weather-wind"></dd>
+                            <dt>Condiciones</dt>
+                            <dd id="weather-condition"></dd>
+                        </dl>
+                        <p id="weather-updated" class="weather-updated" hidden></p>
+                        <p class="weather-attribution">Datos de <a href="https://open-meteo.com/">Open-Meteo</a>.</p>
+                    </article>
+                </aside>
+            </section>
+        </section>
+        <section class="section experience-section" id="experiencia" aria-labelledby="experiencia-titulo" data-aos="fade-up">
+            <header class="section-heading section-heading-row">
+                <hgroup>
+                    <p class="eyebrow">02 / Experiencia</p>
+                    <h2 id="experiencia-titulo">Trabajo y <span>colaboración.</span></h2>
+                </hgroup>
+                <p class="section-intro">Experiencia como agente censal para el Instituto Nacional de Estadística.</p>
+            </header>
+            <ul class="timeline" aria-label="Experiencia laboral">
+                <li class="timeline-item" data-aos="fade-up">
+                    <span class="timeline-marker" aria-hidden="true"></span>
+                    <p class="timeline-date">Instituto Nacional de Estadística</p>
+                    <h3>Agente censal · INE</h3>
+                    <p>Nuestra Señora de La Paz</p>
+                </li>
+            </ul>
+        </section>
+        <section class="section education-section" id="formacion" aria-labelledby="formacion-titulo" data-aos="fade-up">
+            <header class="section-heading section-heading-row">
+                <hgroup>
+                    <p class="eyebrow">03 / Mi recorrido</p>
+                    <h2 id="formacion-titulo">Formación <span>académica.</span></h2>
+                </hgroup>
+                <p class="section-intro">Estudios en sistemas, electrónica, robótica y música.</p>
+            </header>
+            <ul class="timeline" aria-label="Formación académica y cursos">
+                <li class="timeline-item" data-aos="fade-up" data-aos-delay="80">
+                    <span class="timeline-marker" aria-hidden="true"></span>
+                    <p class="timeline-date">Presente</p>
+                    <h3>Ingeniería de Sistemas</h3>
+                    <p>Universidad Católica Boliviana “San Pablo” · La Paz</p>
+                </li>
+                <li class="timeline-item" data-aos="fade-up" data-aos-delay="160">
+                    <span class="timeline-marker" aria-hidden="true"></span>
+                    <p class="timeline-date"><time datetime="2025">2025</time></p>
+                    <h3>Músico</h3>
+                    <p>Conservatorio Plurinacional de Música · La Paz</p>
+                </li>
+                <li class="timeline-item" data-aos="fade-up" data-aos-delay="240">
+                    <span class="timeline-marker" aria-hidden="true"></span>
+                    <p class="timeline-date"><time datetime="2024">2024</time></p>
+                    <h3>Técnico Medio en Electrónica</h3>
+                    <p>Don Bosco · La Paz</p>
+                </li>
+                <li class="timeline-item" data-aos="fade-up" data-aos-delay="320">
+                    <span class="timeline-marker" aria-hidden="true"></span>
+                    <p class="timeline-date"><time datetime="2024">2024</time></p>
+                    <h3>Bachiller en Humanidades</h3>
+                    <p>Unidad Educativa Don Bosco El Prado · La Paz</p>
+                </li>
+                <li class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+                    <span class="timeline-marker" aria-hidden="true"></span>
+                    <p class="timeline-date"><time datetime="2018">2018</time></p>
+                    <h3>Robótica básica con Arduino</h3>
+                    <p>Elemental · La Paz</p>
+                </li>
+            </ul>
+        </section>
+        <section class="section skills-section" id="habilidades" aria-labelledby="habilidades-titulo" data-aos="fade-up">
+            <header class="section-heading section-heading-row">
+                <hgroup>
+                    <p class="eyebrow">04 / Lo que aporto</p>
+                    <h2 id="habilidades-titulo">Habilidades e <span>intereses.</span></h2>
+                </hgroup>
+                <p class="section-intro">Conocimientos y aptitudes recogidos en mi formación y experiencia.</p>
+            </header>
+            <label class="skills-filter" for="busqueda-habilidades">
+                Buscar habilidades
+                <input id="busqueda-habilidades" type="search" autocomplete="off" placeholder="Ej.: Arduino, idiomas…"
+                    aria-describedby="ayuda-busqueda-habilidades estado-busqueda-habilidades">
+            </label>
+            <p id="ayuda-busqueda-habilidades" class="filter-help">Escribe para filtrar las habilidades en tiempo real.</p>
+            <p id="estado-busqueda-habilidades" class="filter-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            <figure class="skills-chart" aria-labelledby="skills-chart-title">
+                <header class="skills-chart-header">
+                    <hgroup>
+                        <h3 id="skills-chart-title">Habilidades por categoría</h3>
+                        <p>Cantidad de elementos listados en cada grupo.</p>
+                    </hgroup>
+                    <label for="skills-chart-type">
+                        Tipo de gráfico
+                        <select id="skills-chart-type">
+                            <option value="bar">Barras</option>
+                            <option value="doughnut">Dona</option>
+                            <option value="radar">Radar</option>
+                        </select>
+                    </label>
+                </header>
+                <section class="chart-plot" role="group" aria-label="Visualización del gráfico">
+                    <canvas
+                        id="skills-chart"
+                        role="img"
+                        aria-label="Gráfico de habilidades por categoría"
+                        aria-describedby="skills-chart-description"
+                    ></canvas>
+                </section>
+                <figcaption id="skills-chart-description" class="chart-description" role="status" aria-live="polite">
+                    Preparando resumen de habilidades…
+                </figcaption>
+            </figure>
+            <ul class="skills-grid" aria-label="Grupos de habilidades">
+                <li>
+                    <article class="skill-card" data-aos="fade-up" data-aos-delay="80">
+                        <span class="skill-index">01</span>
+                        <h3>Tecnología</h3>
+                        <ul class="tag-list">
+                            <li>Electrónica</li>
+                            <li>Informática</li>
+                            <li>Robótica</li>
+                            <li>Arduino</li>
+                            <li>Python</li>
+                            <li>C++</li>
+                            <li>Java</li>
+                            <li>Excel</li>
+                            <li>Herramientas digitales</li>
+                        </ul>
+                    </article>
+                </li>
+                <li>
+                    <article class="skill-card" data-aos="fade-up" data-aos-delay="160">
+                        <span class="skill-index">02</span>
+                        <h3>Aptitudes e intereses</h3>
+                        <ul class="plain-list">
+                            <li>Proactividad y responsabilidad</li>
+                            <li>Facilidad de adaptación</li>
+                            <li>Trabajo en equipo</li>
+                            <li>Deportista</li>
+                            <li>Interpretación experta en guitarra</li>
+                            <li>Música clásica</li>
+                        </ul>
+                    </article>
+                </li>
+                <li>
+                    <article class="skill-card" data-aos="fade-up" data-aos-delay="240">
+                        <span class="skill-index">03</span>
+                        <h3>Idiomas</h3>
+                        <ul class="plain-list">
+                            <li>Castellano — fluido</li>
+                            <li>Inglés — básico</li>
+                        </ul>
+                    </article>
+                </li>
+            </ul>
+        </section>
+        <section class="section personal-section" id="datos" aria-labelledby="datos-titulo" data-aos="fade-up">
+            <header class="section-heading section-heading-row">
+                <hgroup>
+                    <p class="eyebrow">05 / Información</p>
+                    <h2 id="datos-titulo">Datos de <span>contacto.</span></h2>
+                </hgroup>
+                <p class="section-intro">Información personal y referencia incluida en mi hoja de vida.</p>
+            </header>
+            <section class="personal-grid" role="group" aria-label="Datos personales y referencia">
+                <article class="personal-card">
+                    <span class="skill-index">DATOS PERSONALES</span>
+                    <dl class="detail-list">
+                        <dt>Teléfono</dt><dd><a href="tel:+59161219052">+591 61219052</a></dd>
+                        <dt>Correo</dt><dd><a href="mailto:estebansjf19@gmail.com">estebansjf19@gmail.com</a></dd>
+                        <dt>Cédula de identidad</dt><dd>13761735</dd>
+                        <dt>Dirección</dt><dd>Av. Mario Mercado N° 770 · Bajo Llojeta</dd>
+                    </dl>
+                </article>
+                <article class="personal-card">
+                    <span class="skill-index">REFERENCIA</span>
+                    <h3>Cecilia Beatriz Flores Pinto</h3>
+                    <p><a href="tel:+59173575582">+591 73575582</a></p>
+                </article>
+            </section>
+        </section>
+        <section class="section contact-section" id="contacto" aria-labelledby="contacto-titulo" data-aos="fade-up">
+            <address class="contact-copy">
+                <p class="eyebrow">06 / Hablemos</p>
+                <h2 id="contacto-titulo">¿Tienes una idea?<br><span>Conversemos.</span></h2>
+                <p>Si quieres colaborar, compartir una propuesta o simplemente saludar, escríbeme.</p>
+                <a class="contact-email" href="mailto:estebansjf19@gmail.com">estebansjf19@gmail.com <span aria-hidden="true">↗</span></a>
+                <p class="contact-location">La Paz, Bolivia · UCB “San Pablo”</p>
+            </address>
+            <form
+                id="form-contacto"
+                class="contact-form"
+                novalidate
+                aria-labelledby="formulario-contacto-titulo"
+                aria-describedby="form-mensaje"
+            >
+                <header class="form-heading">
+                    <h3 id="formulario-contacto-titulo">Contacto directo</h3>
+                    <span aria-hidden="true">✳</span>
+                </header>
+                <p class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        autocomplete="name"
+                        placeholder="Tu nombre"
+                        required
+                        minlength="3"
+                        aria-describedby="error-nombre"
+                    >
+                    <small id="error-nombre" class="error" aria-live="polite"></small>
+                </p>
+                <p class="campo">
+                    <label for="email">Correo electrónico</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        autocomplete="email"
+                        placeholder="tu@correo.com"
+                        required
+                        aria-describedby="error-email"
+                    >
+                    <small id="error-email" class="error" aria-live="polite"></small>
+                </p>
+                <p class="campo">
+                    <label for="motivo">Motivo</label>
+                    <select id="motivo" name="motivo" required aria-describedby="error-motivo">
+                        <option value="">Selecciona una opción</option>
+                        <option value="Consulta académica">Consulta académica</option>
+                        <option value="Propuesta de proyecto">Propuesta de proyecto</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                    <small id="error-motivo" class="error" aria-live="polite"></small>
+                </p>
+                <p class="campo">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        rows="4"
+                        placeholder="Cuéntame un poco..."
+                        required
+                        minlength="10"
+                        aria-describedby="error-mensaje"
+                    ></textarea>
+                    <small id="error-mensaje" class="error" aria-live="polite"></small>
+                </p>
+                <footer class="form-actions">
+                    <button type="submit" class="button button-primary">Preparar correo <span aria-hidden="true">↗</span></button>
+                    <button type="reset" class="button button-reset">Limpiar</button>
+                </footer>
+                <p id="form-mensaje" class="form-message" role="status" aria-live="polite">Al enviar, se abrirá tu aplicación de correo con el mensaje preparado.</p>
+            </form>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <a class="footer-brand" href="#inicio">ES<span>.</span></a>
+        <p>Hoja de vida · La Paz, Bolivia.</p>
+        <p><small>© <span id="current-year">2026</span> Esteban Javier Santiesteban Flores</small></p>
+        <a class="back-to-top" href="#inicio">Volver arriba ↑</a>
+    </footer>
+
+</body>
+</html>
